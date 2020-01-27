@@ -5,6 +5,7 @@ description = "My super awesome Rust, WebAssembly, and Rollup project!"
 version = "0.1.0"
 authors = ["You <you@example.com>"]
 categories = ["wasm"]
+publish = false
 readme = "README.md"
 edition = "2018"
 

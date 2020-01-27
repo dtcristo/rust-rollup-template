@@ -2,6 +2,7 @@
   "author": "You <you@example.com>",
   "name": "rust-rollup-template",
   "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "tslib": "^1.10.0"
   },
