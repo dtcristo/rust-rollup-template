@@ -37,14 +37,14 @@ script/test --safari
 
 ## What does each file do?
 
-- `Cargo.toml` contains the standard Rust metadata. You put your Rust dependencies in here. You must change this file with your details (name, description, version, authors, categories)
+- `Cargo.toml` contains the standard Rust metadata. You put your Rust dependencies in here.
 
-- `package.json` contains the standard npm metadata. You put your TypeScript dependencies in here. You must change this file with your details (author, name, version)
+- `package.json` contains the standard npm metadata. You put your TypeScript dependencies in here.
 
-- `rollup.config.js` contains the Rollup configuration. You shouldn't need to change this, unless you have very special needs.
+- `rollup.config.js` contains the Rollup configuration.
 
 - The `src` folder contains your Rust code.
 
-- The `web` folder contains your TypeScript code (`index.ts` is used to hook everything into Rollup, you don't need to change it).
+- The `web` folder contains your TypeScript code (`index.ts` is used to hook everything into Rollup).
 
 - The `tests` folder contains your Rust unit tests.
