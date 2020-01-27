@@ -1,7 +1,7 @@
 {
   "author": "David Cristofaro <david@dtcristo.com>",
   "name": "create-rust-rollup",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Kickstart your Rust, WebAssembly, and Rollup project!",
   "repository": "https://github.com/dtcristo/rust-rollup-template",
   "license": "(MIT OR Apache-2.0)",
