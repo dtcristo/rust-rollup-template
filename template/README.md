@@ -1,48 +1,50 @@
 ## How to install
 
+Installs project dependences. See `script/setup` for details.
+
 ```sh
-npm install
+script/setup
 ```
 
 ## How to run in debug mode
 
+Builds the project. View in browser at `http://localhost:10001`. Auto-reloads when the project changes.
+
 ```sh
-# Builds the project and opens it in a new browser tab. Auto-reloads when the project changes.
-npm start
+script/start
 ```
 
 ## How to build in release mode
 
+Builds the project and places it into the `dist` folder.
+
 ```sh
-# Builds the project and places it into the `dist` folder.
-npm run build
+script/build
 ```
 
 ## How to run unit tests
 
 ```sh
 # Runs tests in Firefox
-npm test -- --firefox
+script/test --firefox
 
 # Runs tests in Chrome
-npm test -- --chrome
+script/test --chrome
 
 # Runs tests in Safari
-npm test -- --safari
+script/test --safari
 ```
 
 ## What does each file do?
 
-* `Cargo.toml` contains the standard Rust metadata. You put your Rust dependencies in here. You must change this file with your details (name, description, version, authors, categories)
+- `Cargo.toml` contains the standard Rust metadata. You put your Rust dependencies in here. You must change this file with your details (name, description, version, authors, categories)
 
-* `package.json` contains the standard npm metadata. You put your JavaScript dependencies in here. You must change this file with your details (author, name, version)
+- `package.json` contains the standard npm metadata. You put your TypeScript dependencies in here. You must change this file with your details (author, name, version)
 
-* `webpack.config.js` contains the Webpack configuration. You shouldn't need to change this, unless you have very special needs.
+- `rollup.config.js` contains the Rollup configuration. You shouldn't need to change this, unless you have very special needs.
 
-* The `js` folder contains your JavaScript code (`index.js` is used to hook everything into Webpack, you don't need to change it).
+- The `src` folder contains your Rust code.
 
-* The `src` folder contains your Rust code.
+- The `web` folder contains your TypeScript code (`index.ts` is used to hook everything into Rollup, you don't need to change it).
 
-* The `static` folder contains any files that you want copied as-is into the final build. It contains an `index.html` file which loads the `index.js` file.
-
-* The `tests` folder contains your Rust unit tests.
+- The `tests` folder contains your Rust unit tests.

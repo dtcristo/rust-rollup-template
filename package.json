@@ -1,11 +1,11 @@
 {
-  "author": "Nick Fitzgerald <nfitzgerald@mozilla.com>",
-  "name": "create-rust-webpack",
-  "version": "0.2.0",
-  "repository": "https://github.com/rustwasm/rust-webpack-template",
+  "author": "David Cristofaro <david@dtcristo.com>",
+  "name": "create-rust-rollup",
+  "version": "0.1.0",
+  "repository": "https://github.com/dtcristo/rust-rollup-template",
   "license": "(MIT OR Apache-2.0)",
   "bin": {
-    "create-rust-webpack": ".bin/create-rust-webpack.js"
+    "create-rust-rollup": ".bin/create-rust-rollup.js"
   },
   "dependencies": {
     "cpr": "^3.0.1",
