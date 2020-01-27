@@ -27,7 +27,7 @@ This template comes pre-configured with all the boilerplate for compiling Rust
 to WebAssembly and hooking into a Rollup build pipeline.
 
 - `script/start` -- Serve the project locally for development at
-  `http://localhost:10001`. It auto-reloads when you make any changes.
+  [localhost:10001](http://localhost:10001/). It auto-reloads when you make any changes.
 
 - `script/build` -- Bundle the project (in production mode).
 

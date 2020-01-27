@@ -8,7 +8,7 @@ script/setup
 
 ## How to run in debug mode
 
-Builds the project. View in browser at `http://localhost:10001`. Auto-reloads when the project changes.
+Builds the project. View in browser at [localhost:10001](http://localhost:10001/). Auto-reloads when the project changes.
 
 ```sh
 script/start
